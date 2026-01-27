@@ -1,0 +1,17 @@
+{
+    "name": "pair session",
+    "description": "Web Session Generator",
+    "logo": "https://i.imgur.com/teQzVR1.jpeg",
+    "repository": "https://github.com/nyakunjonathan12-afk/Jonah-tech-bot",
+    "keywords": ["Jonah-Tech","bottech"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
+}
